@@ -1,0 +1,113 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ef8172);
+    height: 100vh;
+}
+
+#hero {
+    text-align: center;
+    color: teal;
+    text-emphasis: bold;
+}
+
+#hero h1 {
+    padding-top: 10%;
+    font-family: comic sans ms;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+#hero p {
+    color: teal;
+    padding-top: 1cm;
+    padding-bottom: 6cm;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#resume {
+    text-align: center;
+    padding-top: 4cm;
+}
+
+ .my-image {
+    display: flex;
+    background-color:cadetblue;
+    border-radius: 50%;
+    height: 270px;
+    width: 270px;
+    margin-left: 760px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #resume h2 {
+    color: teal;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 0.75cm;
+}
+
+    p {
+    color: slategrey;
+    font-size: large;
+    line-height: 0.80cm;
+    padding-bottom: 2cm;
+}
+
+#resume hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+h3 {
+    color: teal;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 0.75cm;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin-left: 450px;
+    text-align: left;
+    row-gap: 2rem;
+} 
+
+.btn {
+    background-color: teal;
+    border-radius: 8%;
+    text-transform: uppercase;
+    border:0px;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#footer {
+    margin-top: 3cm;
+    height: auto;
+  padding: 80px 750px;
+  color: #fff;
+  position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+}
+
+#footer p {
+    color:#eaf6f6;
+    font-size: 15px;
+}
+
+
+
+
+
